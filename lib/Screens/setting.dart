@@ -10,9 +10,9 @@ class Setting extends StatelessWidget{
         child: Column(
           children: <Widget>[
             Text("Setting Sayfası",style: TextStyle(fontSize: 30.0),),
-            RaisedButton(
+            ElevatedButton(
               child: Text("Bu sayfayı kapat"),
-              color: Colors.greenAccent,
+              //color: Colors.greenAccent,
               onPressed: (){
                 Navigator.pop(context);
               },
